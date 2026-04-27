@@ -13,26 +13,6 @@ Trabajo Práctico: AP1 — Primer Seminario
 - Conectividad: JDBC (Java Database Connectivity)
 - Patrón: MVC (Modelo-Vista-Controlador)
 
----
-
-## Estructura del proyecto
-src/distribumax/
-├── Main.java              -> Punto de entrada
-├── model/
-│   ├── Producto.java      -> Clase de dominio Producto
-│   └── Pedido.java        -> Clase de dominio Pedido
-├── dao/
-│   ├── Conexion.java      -> Conexión JDBC a MySQL
-│   └── ProductoDAO.java   -> Acceso a datos de productos
-├── controller/
-│   └── ProductoController.java -> Lógica de negocio
-└── view/
-└── MenuPrincipal.java -> Interfaz de usuario por consola
-sql/
-└── distribumax_schema.sql -> Script de creación de base de datos
-
----
-
 ## Cómo ejecutar el proyecto
 
 ### 1. Base de datos
