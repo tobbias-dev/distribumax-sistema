@@ -13,32 +13,6 @@ Trabajo Práctico: AP1 — Primer Seminario
 - Conectividad: JDBC (Java Database Connectivity)
 - Patrón: MVC (Modelo-Vista-Controlador)
 
-## Cómo ejecutar el proyecto
-
-### 1. Base de datos
-1. Instalar MySQL 8.0 o XAMPP
-2. Ejecutar el archivo `sql/distribumax_schema.sql` en MySQL
-3. Verificar que la base de datos `distribumax` fue creada
-
-### 2. Driver JDBC
-Descargar `mysql-connector-j` desde:  
-https://dev.mysql.com/downloads/connector/j/  
-Agregar el `.jar` al classpath del proyecto.
-
-### 3. Configuración
-En `src/distribumax/dao/Conexion.java` verificar:
-- URL: `jdbc:mysql://localhost:3306/distribumax`
-- Usuario: `root`
-- Contraseña: (vacía por defecto en XAMPP)
-
-### 4. Compilar y ejecutar
-```bash
-javac -cp mysql-connector-j.jar src/distribumax/**/*.java
-java -cp .:mysql-connector-j.jar distribumax.Main
-```
-
----
-
 ## Módulos implementados
 
 - Gestión de catálogo de productos
